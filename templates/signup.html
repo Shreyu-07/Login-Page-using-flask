@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='signup.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+<style>
+    body{
+        background-image: url("../static/background.jpg");
+    }
+</style>
+
+
+    </head>
+
+<body>
+    <form action="/signup" method="post">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+            crossorigin="anonymous"></script>
+        <div class="container position-absolute top-50 start-0 translate-middle-y mainBox">
+            <h1 style="color: black; font: bolder;" class="welcome"><b>Create your Account here....!</b></h1>
+
+            <div class="parent ">
+                <div class="child1">
+                    <span style="font-size: larger; "><b>User Name:</b></span>
+                    <input type="text" name="username" class="username"
+                        style="padding-left: 20px; width: 80%; border-radius: 10px; font-size: larger; margin-left: 1rem; border-color: rgb(0, 255, 42);box-shadow: rgb(10, 232, 25) 0cm 0cm 3cm;"
+                        placeholder="Name Please"><br>
+                    <span style="font-size: larger;"><b>Password :</b> </span>
+                    <input type="password" name="password" class="password" placeholder="Password Please"
+                        style="padding-left: 20px;border-radius: 10px; width: 80%;margin-left: 1rem; font-size: larger; border-color: rgb(0, 255, 42); box-shadow: rgb(10, 232, 25) 0cm 0cm 3cm;"><br>
+
+                        <span style="font-size: larger;"><b>Conform Password :</b> </span>
+                    <input type="password" name="password" class="password" placeholder="Password Please"
+                        style="padding-left: 20px;border-radius: 10px; width: 80%;margin-left: 1rem; font-size: larger; border-color: rgb(0, 255, 42); box-shadow: rgb(10, 232, 25) 0cm 0cm 3cm;"><br>
+
+
+                    <center><input class="btn btn-primary" style="width: 6rem; margin-left: -3rem;" type="submit"
+                            value="Submit"></center>
+                    <span style="margin-left: 1rem; margin-top: 1rem;">
+                        <h4>If new ? <a href="{{ url_for('signup') }}">Create account</a></h4>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </form>
+
+
+
+
+
+
+</body>
+
+</html>
