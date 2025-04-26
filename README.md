@@ -50,7 +50,7 @@ Designed to provide a smooth user experience across both **desktop** and **mobil
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/Shreyu-07/Login-Page-using-flask.git
 Navigate to the project folder
 
 
