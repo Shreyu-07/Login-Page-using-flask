@@ -10,15 +10,15 @@ Designed to provide a smooth user experience across both **desktop** and **mobil
 ### 💻 Desktop View
 | Home Page | Login Page |
 | :-------: | :--------: |
-| ![Desktop Home](![op1](https://github.com/user-attachments/assets/dff6c5a9-d023-4cda-a483-f2027a55a00e)
-) | ![Desktop Login](![op2](https://github.com/user-attachments/assets/3bc5bc26-5b67-459a-9331-ff93ed66fb4a)
+| ![op1](https://github.com/user-attachments/assets/dff6c5a9-d023-4cda-a483-f2027a55a00e)
+| ![op2](https://github.com/user-attachments/assets/3bc5bc26-5b67-459a-9331-ff93ed66fb4a)
 
 
 ### 📱 Mobile View
 | Home Page | Login Page |
 | :-------: | :--------: |
-| ![Mobile Home](![op1 1](https://github.com/user-attachments/assets/d1d0cfbe-1f08-4d40-a123-163e86b1d3b3)
-) | ![Mobile Login](![op2 1](https://github.com/user-attachments/assets/82fe1ab4-1e12-4465-b3af-c4fc3c3692f6)
+| ![op1 1](https://github.com/user-attachments/assets/d1d0cfbe-1f08-4d40-a123-163e86b1d3b3)
+| ![op2 1](https://github.com/user-attachments/assets/82fe1ab4-1e12-4465-b3af-c4fc3c3692f6)
 
 
 ---
